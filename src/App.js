@@ -2,18 +2,19 @@ import React from 'react';
 import Titles from './components/Titles';
 import Form from './components/Form';
 import Weather from './components/Weather';
+import './App.css';
 
 const API_KEY = "0254eb2949f0a44bba96b350b4709b42";
 
 export default class App extends React.Component {
 
     state = {
-        temperature: undefined,
-        city: undefined,
-        country: undefined,
-        humidity: undefined,
-        description: undefined,
-        error: undefined
+        temperature: '',
+        city: '',
+        country: '',
+        humidity: '',
+        description: '',
+        error: ''
     }
 
     getWeather = async(e) => {
@@ -34,11 +35,11 @@ export default class App extends React.Component {
             });
         } else {
             this.setState ({
-                temperature: undefined,
-                city: undefined,
-                country: undefined,
-                humidity: undefined,
-                description: undefined,
+                temperature: '',
+                city: '',
+                country: '',
+                humidity: '',
+                description: '',
                 error: "Please enter the value."
             });
         }
