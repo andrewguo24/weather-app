@@ -9,3 +9,8 @@
   font-size: 15x;
   text-align: center;
 }
+
+.input_btn {
+  margin: auto;
+  margin-top: 50px;
+}
