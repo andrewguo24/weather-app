@@ -10,7 +10,42 @@
   text-align: center;
 }
 
-.input_btn {
+.form {
   margin: auto;
+  width: 691px;
   margin-top: 50px;
 }
+
+.btn {
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin-left: 20px;
+  cursor: pointer;
+}
+
+.input {
+  padding: 8px 40px;
+  border-bottom: 1px solid orangered;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  text-align: left;
+  font-size: 15px;
+  margin-left: 20px;
+
+}
+
+.output {
+  width: 280px;
+  margin: auto;
+  margin-top: 30px;
+  text-align: left;
+  font-size: 25px;
+}
+
